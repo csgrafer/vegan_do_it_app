@@ -1,3 +1,4 @@
+json.business_id restaurant.business_id
 json.name restaurant.name
 json.address restaurant.address
 json.hours restaurant.hours

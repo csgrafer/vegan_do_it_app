@@ -33,7 +33,7 @@ class Api::UsersController < ApplicationController
     @user.last_name = params[:last_name] || @user.last_name
     @user.email = params[:email] || @user.email
     @user.phone_number = params[:phone_number] || @user.phone_number
-    @user.user_name = params[:username] || @user.username
+    @user.username = params[:username] || @user.username
     if params[:password]
       @user.password = params[:password]
       @user.password_confirmation = params[:password_confirmation]
